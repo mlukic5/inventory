@@ -16,7 +16,41 @@
         </style>
     @endif
 </head>
-<body>
-<h1>Impressum</h1>
+
+
+<body class="bg-gray-500 dark:bg-orange-100 p-3">
+    <h1 class="text-sm md:text-xl lg:text-4xl text-gray-100 dark:text-gray-500
+    md:text-amber-300 dark:md:text-red-300">Impressum</h1>
+
+    <p class="text-lg lg:text-3xl mt-6 mb-6 md:mt-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Ab aliquam amet animi architecto consequuntur culpa, cupiditate delectus earum
+    et exercitationem illum ipsa iure maiores maxime minima nobis omnis quaerat repellat?</p>
+
+<div class="space-y-3">
+    <p class="bg-pink-600 p-3 rounded-lg"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Aperiam consectetur eaque esse natus neque numquam odio praesentium quas,
+    quis quod quos temporibus voluptates voluptatibus. In ipsa iusto obcaecati optio quas.</p>
+
+    <p class="bg-blue-600 p-3 rounded-lg"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aperiam consectetur eaque esse natus neque numquam odio praesentium quas,
+        quis quod quos temporibus voluptates voluptatibus. In ipsa iusto obcaecati optio quas.</p>
+
+    <p class="bg-emerald-600 p-3 rounded-lg"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aperiam consectetur eaque esse natus neque numquam odio praesentium quas,
+        quis quod quos temporibus voluptates voluptatibus. In ipsa iusto obcaecati optio quas.</p>
+
+</div>
+
+<div class="mt-6 flex flex-row ">
+   <div class="bg-amber-400 flex-2 rounded-l-lg p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Et iste repellendus voluptas. Asperiores illum ipsa nam omnis,
+       repellat rerum suscipit temporibus velit voluptatem?
+       Consequuntur deserunt explicabo incidunt mollitia necessitatibus ut.</div>
+
+    <div class="bg-teal-500 flex-1 rounded-r-lg p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Et iste repellendus voluptas. Asperiores illum ipsa nam omnis,
+        repellat rerum suscipit temporibus velit voluptatem?
+        Consequuntur deserunt explicabo incidunt mollitia necessitatibus ut.</div>
+</div>
 </body>
 </html>
